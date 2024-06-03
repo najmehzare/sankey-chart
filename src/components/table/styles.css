@@ -1,0 +1,27 @@
+.loading {
+    display: flex;
+    background-color: aquamarine;
+    width: 100%;
+    height: calc(100vh - 120px);
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+    min-height: 10rem;
+    font-family: Roboto, Arial;
+    color: #adafb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --color: hsl(160, 100%, 33%);
+    --colorRight: hsl(160, 100%, 18%);
+    --colorLeft: hsl(160, 100%, 28%);
+    --shadow: #dbe3f4;
+    --size: 32px;
+    --duration: 800ms;
+    * {
+        box-sizing: border-box;
+        &:before,
+        &:after {
+            box-sizing: border-box;
+        }
+    }
+}

@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "~vazirmatn/Vazirmatn-font-face.css";
+
+@layer base {
+  * {
+    font-family: Vazirmatn, sans-serif;
+  }
+  body {
+    direction: rtl;
+    text-align: right;
+    background-color: #fafafa ;
+    min-height: 480px;
+  }
+  @layer utilities {
+    .ltr {
+      direction: ltr;
+    }
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
