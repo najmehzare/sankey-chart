@@ -14,7 +14,7 @@ const sankeyData = [
 var colors = ['orange', 'red', 'purple', 'brown','green', 'blue'];
 
 var options = {
-    height: 400,
+    height: 200,
     sankey: {
         node: {
             colors: colors
